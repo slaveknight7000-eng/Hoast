@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentum Education — Learn Skills That Move You Forward</title>
+  <meta name="description" content="Momentum Education is a modern learning portal offering expert-led courses, live mentorship, and career-focused programs to help you build real, in-demand skills." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="Momentum Education home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="url(#brandgrad)" />
+            <path d="M9 22V10l7 6 7-6v12" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+            <defs>
+              <linearGradient id="brandgrad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6d5efc" />
+                <stop offset="1" stop-color="#9b5cf6" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="brand-text">Momentum<span class="brand-accent">Education</span></span>
+      </a>
+
+      <nav class="main-nav" id="primary-nav" aria-label="Primary">
+        <a href="#features">Why Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#library">Library</a>
+        <a href="#how">How It Works</a>
+        <a href="#testimonials">Stories</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#signup" class="btn btn-ghost nav-login">Log in</a>
+        <a href="#signup" class="btn btn-primary nav-cta">Get Started Free</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="math-deco" aria-hidden="true">
+        <span class="m1">∫</span>
+        <span class="m2">∑</span>
+        <span class="m3">π</span>
+        <span class="m4">√</span>
+        <span class="m5">∞</span>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="pill"><span class="pill-dot"></span> New math cohort starts every month</span>
+          <h1>Master the math that <span class="grad">moves you forward.</span></h1>
+          <p class="lead">
+            Momentum Education is a modern learning portal built for mathematics —
+            from algebra and calculus to statistics and beyond — with expert-led
+            lessons, live mentorship, and a free library of downloadable study guides.
+          </p>
+          <div class="hero-cta">
+            <a href="#signup" class="btn btn-primary btn-lg">Start Learning Free</a>
+            <a href="#library" class="btn btn-outline btn-lg">Browse Math Library</a>
+          </div>
+          <ul class="hero-trust">
+            <li><strong>50k+</strong><span>Active learners</span></li>
+            <li><strong>200+</strong><span>Math lessons</span></li>
+            <li><strong>4.9/5</strong><span>Average rating</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="hero-card hero-card-main">
+            <div class="hero-card-head">
+              <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+              <span class="hero-card-title">momentum / my math progress</span>
+            </div>
+            <div class="hero-card-body">
+              <div class="progress-row">
+                <div class="progress-label"><span>Calculus I</span><span>72%</span></div>
+                <div class="progress"><div class="progress-bar" style="--val:72%"></div></div>
+              </div>
+              <div class="progress-row">
+                <div class="progress-label"><span>Linear Algebra</span><span>48%</span></div>
+                <div class="progress"><div class="progress-bar" style="--val:48%"></div></div>
+              </div>
+              <div class="progress-row">
+                <div class="progress-label"><span>Statistics</span><span>90%</span></div>
+                <div class="progress"><div class="progress-bar" style="--val:90%"></div></div>
+              </div>
+              <div class="hero-badge-row">
+                <span class="badge">∑ 12-day streak</span>
+                <span class="badge">🏆 3 certificates</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card hero-card-float">
+            <div class="mini-avatar">AV</div>
+            <div>
+              <strong>Live mentor session</strong>
+              <span class="muted">Starting in 10 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="logo-strip reveal">
+        <span class="muted">Trusted by learners building careers at</span>
+        <div class="logo-row">
+          <span>Google</span><span>Amazon</span><span>Microsoft</span><span>Stripe</span><span>Airbnb</span><span>Spotify</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Features ===== -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Why Momentum</span>
+          <h2>Everything you need to keep moving forward</h2>
+          <p class="lead">A learning experience built around real outcomes — not endless video libraries.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon icon-violet">🎯</div>
+            <h3>Project-based learning</h3>
+            <p>Learn by building real projects you can show to employers. Every course ends with a portfolio-ready deliverable.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon icon-pink">🧑‍🏫</div>
+            <h3>1:1 live mentorship</h3>
+            <p>Book sessions with industry mentors who review your work, answer questions, and help you plan your next step.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon icon-blue">📈</div>
+            <h3>Career-focused tracks</h3>
+            <p>Curated paths that take you from fundamentals to job-ready, aligned with what hiring managers actually look for.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon icon-green">⚡</div>
+            <h3>Learn on your schedule</h3>
+            <p>Bite-sized lessons that fit around your life. Pause anytime, pick up on any device, and never lose your streak.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon icon-orange">🏅</div>
+            <h3>Verified certificates</h3>
+            <p>Earn shareable certificates that prove your skills and strengthen your LinkedIn and résumé.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon icon-teal">🤝</div>
+            <h3>Supportive community</h3>
+            <p>Join study groups and discussion boards where learners collaborate, share wins, and grow together.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Courses ===== -->
+    <section class="section section-alt" id="courses">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Math Courses</span>
+          <h2>Start with the math that fits your goal</h2>
+          <p class="lead">Structured, project-based programs from arithmetic foundations to advanced topics.</p>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card reveal">
+            <div class="course-thumb thumb-calc">
+              <span class="course-tag">Calculus</span>
+              <span class="course-emoji">∫</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta"><span>⭐ 4.9</span><span>•</span><span>10 weeks</span><span>•</span><span>Intermediate</span></div>
+              <h3>Calculus I: Limits &amp; Derivatives</h3>
+              <p>Build intuition for limits, rates of change, and the core derivative rules with guided practice.</p>
+              <div class="course-foot">
+                <span class="price">$149</span>
+                <a href="#signup" class="link-arrow">Enroll now →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal">
+            <div class="course-thumb thumb-alg">
+              <span class="course-tag">Algebra</span>
+              <span class="course-emoji">∑</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta"><span>⭐ 4.8</span><span>•</span><span>8 weeks</span><span>•</span><span>Beginner</span></div>
+              <h3>Algebra Foundations</h3>
+              <p>Master equations, factoring, quadratics, and functions — the language every math path needs.</p>
+              <div class="course-foot">
+                <span class="price">$119</span>
+                <a href="#signup" class="link-arrow">Enroll now →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal">
+            <div class="course-thumb thumb-stats">
+              <span class="course-tag">Statistics</span>
+              <span class="course-emoji">σ</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta"><span>⭐ 4.9</span><span>•</span><span>9 weeks</span><span>•</span><span>Intermediate</span></div>
+              <h3>Statistics &amp; Probability</h3>
+              <p>Describe data, model chance, and learn the reasoning behind distributions and hypothesis tests.</p>
+              <div class="course-foot">
+                <span class="price">$159</span>
+                <a href="#signup" class="link-arrow">Enroll now →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal">
+            <div class="course-thumb thumb-linalg">
+              <span class="course-tag">Linear Algebra</span>
+              <span class="course-emoji">▦</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta"><span>⭐ 4.8</span><span>•</span><span>10 weeks</span><span>•</span><span>Intermediate</span></div>
+              <h3>Linear Algebra Essentials</h3>
+              <p>Explore vectors, matrices, and eigenvalues — the engine behind graphics, data, and AI.</p>
+              <div class="course-foot">
+                <span class="price">$169</span>
+                <a href="#signup" class="link-arrow">Enroll now →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal">
+            <div class="course-thumb thumb-discrete">
+              <span class="course-tag">Discrete</span>
+              <span class="course-emoji">λ</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta"><span>⭐ 4.7</span><span>•</span><span>8 weeks</span><span>•</span><span>All levels</span></div>
+              <h3>Discrete Mathematics</h3>
+              <p>Logic, sets, proofs, and combinatorics — the foundations of computer science and problem solving.</p>
+              <div class="course-foot">
+                <span class="price">$149</span>
+                <a href="#signup" class="link-arrow">Enroll now →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card reveal">
+            <div class="course-thumb thumb-geom">
+              <span class="course-tag">Trigonometry</span>
+              <span class="course-emoji">△</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta"><span>⭐ 4.8</span><span>•</span><span>7 weeks</span><span>•</span><span>Beginner</span></div>
+              <h3>Geometry &amp; Trigonometry</h3>
+              <p>From shapes and angles to identities and the unit circle — visual math you can trust.</p>
+              <div class="course-foot">
+                <span class="price">$129</span>
+                <a href="#signup" class="link-arrow">Enroll now →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Math Library (free PDF downloads) ===== -->
+    <section class="section" id="library">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Free Math Library</span>
+          <h2>Downloadable math guides, on us</h2>
+          <p class="lead">Handy PDF references written by our instructors — free to download, keep, and share. No signup required.</p>
+        </div>
+
+        <div class="book-grid">
+          <article class="book-card reveal">
+            <div class="book-cover book-cover-calc">
+              <span class="book-symbol">∫</span>
+              <span class="book-badge">PDF</span>
+            </div>
+            <div class="book-body">
+              <div class="book-meta"><span>Calculus</span><span>•</span><span>3 pages</span></div>
+              <h3>Calculus Essentials</h3>
+              <p>Limits, derivatives, integrals, and the Fundamental Theorem — with key formulas at a glance.</p>
+              <a class="btn btn-outline btn-block book-download" href="books/calculus-essentials.pdf" download>
+                <span aria-hidden="true">⬇</span> Download PDF
+              </a>
+            </div>
+          </article>
+
+          <article class="book-card reveal">
+            <div class="book-cover book-cover-linalg">
+              <span class="book-symbol">▦</span>
+              <span class="book-badge">PDF</span>
+            </div>
+            <div class="book-body">
+              <div class="book-meta"><span>Linear Algebra</span><span>•</span><span>3 pages</span></div>
+              <h3>Linear Algebra Foundations</h3>
+              <p>Vectors, matrices, determinants, and eigenvalues explained for beginners.</p>
+              <a class="btn btn-outline btn-block book-download" href="books/linear-algebra-foundations.pdf" download>
+                <span aria-hidden="true">⬇</span> Download PDF
+              </a>
+            </div>
+          </article>
+
+          <article class="book-card reveal">
+            <div class="book-cover book-cover-stats">
+              <span class="book-symbol">σ</span>
+              <span class="book-badge">PDF</span>
+            </div>
+            <div class="book-body">
+              <div class="book-meta"><span>Statistics</span><span>•</span><span>3 pages</span></div>
+              <h3>Statistics &amp; Probability</h3>
+              <p>Descriptive stats, distributions, Bayes' theorem, and hypothesis testing essentials.</p>
+              <a class="btn btn-outline btn-block book-download" href="books/statistics-probability-handbook.pdf" download>
+                <span aria-hidden="true">⬇</span> Download PDF
+              </a>
+            </div>
+          </article>
+
+          <article class="book-card reveal">
+            <div class="book-cover book-cover-alg">
+              <span class="book-symbol">∑</span>
+              <span class="book-badge">PDF</span>
+            </div>
+            <div class="book-body">
+              <div class="book-meta"><span>Algebra &amp; Trig</span><span>•</span><span>3 pages</span></div>
+              <h3>Algebra &amp; Trig Workbook</h3>
+              <p>Factoring, the quadratic formula, logarithms, and core trig identities to memorise.</p>
+              <a class="btn btn-outline btn-block book-download" href="books/algebra-trigonometry-workbook.pdf" download>
+                <span aria-hidden="true">⬇</span> Download PDF
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="library-note reveal">More guides added every month. Want a topic covered? <a href="#contact" class="link-arrow">Let us know →</a></p>
+      </div>
+    </section>
+
+
+    <!-- ===== How It Works ===== -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">How It Works</span>
+          <h2>From curious to job-ready in three steps</h2>
+          <p class="lead">A simple, guided path — no guesswork about what to learn next.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-num">1</div>
+            <h3>Pick your goal</h3>
+            <p>Choose a career track or single course. Not sure? Take our 2-minute skills quiz to get matched.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">2</div>
+            <h3>Learn &amp; build</h3>
+            <p>Follow bite-sized lessons, complete projects, and get feedback from mentors along the way.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">3</div>
+            <h3>Prove &amp; grow</h3>
+            <p>Earn a verified certificate, polish your portfolio, and apply with confidence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Success Stories</span>
+          <h2>Learners who built momentum with us</h2>
+          <p class="lead">Real results from people who changed their careers and leveled up their skills.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>"The project-based approach made all the difference. Six months after finishing the UX track, I landed my first design job."</blockquote>
+            <figcaption class="testimonial-author">
+              <span class="avatar avatar-1">AR</span>
+              <span><strong>Aisha Rahman</strong><span class="muted">Product Designer</span></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>"The mentors are incredible. Getting real feedback on my code pushed me further than any tutorial ever could."</blockquote>
+            <figcaption class="testimonial-author">
+              <span class="avatar avatar-2">DK</span>
+              <span><strong>Daniel Kim</strong><span class="muted">Frontend Developer</span></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>"I could learn around my full-time job thanks to the flexible schedule. The streak system kept me motivated every single week."</blockquote>
+            <figcaption class="testimonial-author">
+              <span class="avatar avatar-3">MS</span>
+              <span><strong>Maria Silva</strong><span class="muted">Data Analyst</span></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Pricing ===== -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Pricing</span>
+          <h2>Simple plans that scale with you</h2>
+          <p class="lead">Start free. Upgrade whenever you're ready. Cancel anytime.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="pricing-card reveal">
+            <h3>Free</h3>
+            <p class="pricing-sub">Perfect for exploring.</p>
+            <div class="pricing-amount"><span class="currency">$</span><span class="amount">0</span><span class="period">/mo</span></div>
+            <a href="#signup" class="btn btn-outline btn-block">Get Started</a>
+            <ul class="pricing-list">
+              <li>Access to free courses</li>
+              <li>Community discussion boards</li>
+              <li>Basic progress tracking</li>
+              <li>1 course certificate</li>
+            </ul>
+          </div>
+
+          <div class="pricing-card pricing-card-popular reveal">
+            <span class="popular-badge">Most Popular</span>
+            <h3>Pro</h3>
+            <p class="pricing-sub">For serious learners.</p>
+            <div class="pricing-amount"><span class="currency">$</span><span class="amount">29</span><span class="period">/mo</span></div>
+            <a href="#signup" class="btn btn-primary btn-block">Start Pro</a>
+            <ul class="pricing-list">
+              <li>Unlimited access to all courses</li>
+              <li>Monthly 1:1 mentor sessions</li>
+              <li>Career tracks &amp; roadmaps</li>
+              <li>Unlimited verified certificates</li>
+              <li>Downloadable projects</li>
+            </ul>
+          </div>
+
+          <div class="pricing-card reveal">
+            <h3>Teams</h3>
+            <p class="pricing-sub">For companies &amp; schools.</p>
+            <div class="pricing-amount"><span class="currency">$</span><span class="amount">19</span><span class="period">/seat</span></div>
+            <a href="#contact" class="btn btn-outline btn-block">Talk to Sales</a>
+            <ul class="pricing-list">
+              <li>Everything in Pro</li>
+              <li>Team analytics dashboard</li>
+              <li>Custom learning paths</li>
+              <li>Priority support &amp; onboarding</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section-alt" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Questions? We've got answers.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>Do I need any experience to start?<span class="faq-icon">+</span></summary>
+            <div class="faq-answer"><p>Not at all. Many of our courses are beginner-friendly and start from the very basics. Our skills quiz can also recommend the right starting point for you.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Can I learn at my own pace?<span class="faq-icon">+</span></summary>
+            <div class="faq-answer"><p>Yes! All lessons are self-paced and available on any device. You can pause, resume, and revisit content whenever it suits your schedule.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Are the certificates recognized?<span class="faq-icon">+</span></summary>
+            <div class="faq-answer"><p>Our certificates are shareable and verifiable, and many learners add them to LinkedIn and résumés. They demonstrate real, project-based skills to employers.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Can I cancel my subscription anytime?<span class="faq-icon">+</span></summary>
+            <div class="faq-answer"><p>Absolutely. You can upgrade, downgrade, or cancel your plan at any time with no hidden fees or long-term contracts.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Do you offer support if I get stuck?<span class="faq-icon">+</span></summary>
+            <div class="faq-answer"><p>Yes. Free learners have access to community forums, and Pro members can book live 1:1 mentor sessions for personalized guidance.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- ===== CTA / Signup ===== -->
+    <section class="cta" id="signup">
+      <div class="container cta-inner reveal">
+        <h2>Ready to build your momentum?</h2>
+        <p class="lead">Join 50,000+ learners today. Start for free — no credit card required.</p>
+        <form class="cta-form" id="signup-form" novalidate>
+          <label class="sr-only" for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email" required />
+          <button type="submit" class="btn btn-light btn-lg">Get Started Free</button>
+        </form>
+        <p class="cta-note" id="form-note" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="8" fill="url(#brandgrad2)" />
+              <path d="M9 22V10l7 6 7-6v12" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+              <defs>
+                <linearGradient id="brandgrad2" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#6d5efc" /><stop offset="1" stop-color="#9b5cf6" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="brand-text">Momentum<span class="brand-accent">Education</span></span>
+        </a>
+        <p class="footer-tagline">Learn skills that move you forward. A modern learning portal for curious minds.</p>
+        <div class="socials" aria-label="Social links">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="#features">Features</a>
+        <a href="#courses">Courses</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#signup">Log in</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#testimonials">Stories</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#faq">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Momentum Education. All rights reserved.</span>
+      <span>Made with 💜 for lifelong learners.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
